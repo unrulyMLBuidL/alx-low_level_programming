@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE > $(echo $CFILE | grep -v ".c").o
+gcc -S $CFILE > $(echo $CFILE | tr ".c" ".s")
