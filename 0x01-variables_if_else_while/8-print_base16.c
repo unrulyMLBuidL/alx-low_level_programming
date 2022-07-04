@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - entry point.
  *
  * DES: print values of base 16 from 0 in low_case
@@ -21,5 +21,6 @@ int main(void)
 	putchar(a);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
+
 }
