@@ -12,11 +12,15 @@ int main(void)
 	int c;
 
 	c = 0;
-	for (; c < 10; c++)
+	for (; c < 10; )
 	{
 	putchar(c + '0');
+	if (c != 9)
+	{
 	putchar(',');
 	putchar(' ');
+	}
+	c++;
 	}
 	putchar('\n');
 	return (0);
