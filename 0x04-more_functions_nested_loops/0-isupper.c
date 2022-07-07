@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * DES: Return 1 if ther is uppercase
+ * DES: Return 1 if there is uppercase
  */
 int _isupper(int c)
 {
