@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point.
@@ -9,7 +9,13 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char str[] = "_putchar\n";
+	int i;
+
+	for ( i = 0; i < 9; i++)
+	{
+		_putchar(str[i]);
+	}
 	return (0);
 
 }
