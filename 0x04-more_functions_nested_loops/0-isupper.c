@@ -5,15 +5,10 @@
  */
 int _isupper(int c)
 {
-	char letters = 'A';
 
-	while (letters <= 'Z')
-	{
-	if (c == letters)
-		_putchar('1');
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 	else
-		_putchar('0');
-	letters++;
-	}
-	return (0);
+		return (0);
+
 }
