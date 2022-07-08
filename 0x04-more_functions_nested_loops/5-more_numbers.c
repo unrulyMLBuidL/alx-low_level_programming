@@ -2,17 +2,16 @@
 
 /**
  * print 0 - 14, 10 times.
+ *
+ * Return: void
  */
 
 void more_numbers(void)
 
 {
-
 	char y, x;
 
 	int i = 0;
-
-
 
 	while (i < 10)
 
@@ -37,8 +36,6 @@ void more_numbers(void)
 			_putchar('0' + x);
 
 		}
-
-
 
 		_putchar('\n');
 
