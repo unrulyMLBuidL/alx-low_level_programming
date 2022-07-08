@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 /**
  * Des: all functions are called here
  *    for 0x02-functions_nested_loops
