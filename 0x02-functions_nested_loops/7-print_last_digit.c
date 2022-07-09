@@ -3,6 +3,7 @@
 /**
  * print_last_digit - Entry point.
  * @i: interger value.
+ * @x: variable
  * Description: Prints the last digit of a number.
  * Return: int
  */
