@@ -3,18 +3,17 @@
 /**
  * print_last_digit - Entry point.
  * @i: interger value.
- * @x: last_digit variable
  * Description: Prints the last digit of a number.
  * Return: int
  */
 int print_last_digit(int i)
 {
-	int x = i % 10;
+	int last = i % 10;
 
 	if (i < 0)
 	{
-		x = x * -1;
+		last = last * -1;
 	}
-	_putchar(x + '0');
-	return (x);
+	_putchar(last + '0');
+	return (last);
 }
