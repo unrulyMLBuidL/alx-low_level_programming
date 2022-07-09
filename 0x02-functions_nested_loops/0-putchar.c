@@ -4,8 +4,8 @@
 
 /**
  * main - entry point
+ *
  * prints _putchar
- * @c: The character to print
  *
  * Return: void
  */
