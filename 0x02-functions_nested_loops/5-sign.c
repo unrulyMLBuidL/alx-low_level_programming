@@ -3,6 +3,7 @@
 /**
  * print_sign - Entry point.
  * Description: Prints if an int is positive or negative.
+ * @n: variable
  * Return: 1 if positive, 0 if zero, -1 if negative
  */
 int print_sign(int n)
