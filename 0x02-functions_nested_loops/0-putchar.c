@@ -1,21 +1,24 @@
+#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - entry point.
+ * main - entry point
+ * prints _putchar
+ * @c: The character to print
  *
- * Des: print _putchar.
- *
- * Return: Always 0 (Success)
+ * Return: void
  */
 int main(void)
 {
-	char str[] = "_putchar\n";
-	int i;
-
-	for ( i = 0; i < 9; i++)
-	{
-		_putchar(str[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
-
 }
