@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * islower: checks for lowercase character.
- *
- * Return: int 1 or 0
+ * _islower - Entry point
+ * Description: checks for lowercase character.
+ * @c: variable
+ * Return: int 1 if true or 0 if false
  */
 int _islower(int c)
 {
@@ -16,5 +17,4 @@ int _islower(int c)
 		return (0);
 	}
 
-}
- 
+} 
