@@ -2,10 +2,8 @@
 
 
 /**
- * main - entry point.
- *
- * DES: a function that prints alphabet in lower
- * 	-case
+ * function that prints alphabet in lower-case.
+ * @a: char variable
  * Return: void
  * function that prints lower_alpha
  */
