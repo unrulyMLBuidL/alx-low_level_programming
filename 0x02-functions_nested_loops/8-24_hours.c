@@ -24,11 +24,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	hours++;
-	_putchar((hours / 10) + '0');
-	_putchar((hours % 10) + '0');
-	_putchar(':');
-	_putchar('0');
-	_putchar('0');
 	}
-	return;
 }
