@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - entry point | function name
  * description: swaps the value of any passed param.
- * @*n: parameter variable
+ * @n: parameter variable
  * Return: void
  */
 void reset_to_98(int *n)
