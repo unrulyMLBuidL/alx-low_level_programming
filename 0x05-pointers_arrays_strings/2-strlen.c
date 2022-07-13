@@ -3,9 +3,9 @@
 /**
  * _strlen - entry point.
  * @s: paramater variable type char.
- * @start: int variable
+ *
  * description: returns the length of a string
- * return: int type
+ * Return: int type length of the string
  */
 int _strlen(char *s)
 {
