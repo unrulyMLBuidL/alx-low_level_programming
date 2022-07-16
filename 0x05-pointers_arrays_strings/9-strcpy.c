@@ -3,9 +3,9 @@
 /**
  * _strcpy - copies the string pointed by src
  *		including the null byte to dest.
- * @dest: param variable, buffer to house src.
+ * @dest: param variable, buffer to house 'src'.
  * @src: param variable to be the source.
- * return value @_strcpy: char type to a pointer.
+ * Return: pointer to 'dest'.
  */
 char *_strcpy(char *dest, char *src)
 {
