@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcpy - copies the string pointed by src 
+ * _strcpy - copies the string pointed by src
  *		including the null byte to dest.
  * @dest: param variable, buffer to house src.
  * @src: param variable to be the source.
- * return: char* type
+ * return value @_strcpy: char type to a pointer.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 
 	if (dest == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	while (*src != '\0')
 	{
@@ -22,5 +22,5 @@ char *_strcpy(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return dt;
+	return (dt);
 }
